@@ -1,6 +1,7 @@
 # SocialeX
 
 SocialeX – Functional Specification Document
+
 1. Project Overview
 SocialeX is a comprehensive, full-stack social media web application that enables users to share content, interact with others, and communicate in real time. Built using the MERN stack and modern development tools, the application provides a scalable and interactive platform for social networking.
 
