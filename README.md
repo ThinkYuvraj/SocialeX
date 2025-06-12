@@ -74,12 +74,11 @@ Authentication	       JWT, bcrypt	                  Secure login and password ma
  WebSocket Layer: Socket.io for real-time chat and alerts, implemented with client and server-side integration.
 
 6. Deployment
+   
+The application uses MongoDB as its primary database. It is hosted based on project needs—either locally, 
+on a custom cloud VM (such as AWS EC2), or through a managed service like MongoDB Atlas for scalability and cloud access.
 
-Client & Server Hosting: Deployed on platforms such as Vercel, Netlify, or AWS Amplify (for frontend) and Render, Heroku, or AWS EC2 (for backend).
-Database Hosting: MongoDB Atlas for scalable, cloud-hosted database access.
-Environment Management: .env files for secure credential management.
-
-7. Security Considerations
+8. Security Considerations
 
 Input validation and sanitation
 Secure password handling
